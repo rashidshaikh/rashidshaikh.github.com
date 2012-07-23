@@ -1,0 +1,12 @@
+---
+permalink: /:categories/:title.html
+#If we do not set "paginate" property, jekyll will not generate paginator object.
+#As we are assuming that there wont be many posts per page, We are setting "paginate" property to 50, 
+#it is just a hack to disable pagination.
+#Pagination will be needed in future. 
+paginate: 50
+
+#No. of words to be display on list page
+contentLimit: 100
+
+adminEmailAddress: rshaikh@equalexperts.com
