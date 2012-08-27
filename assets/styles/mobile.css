@@ -2,7 +2,7 @@ body{
 	background-color: #EEE;
 }
 #mainWrapper{
-	border: 1px solid red;
+	//border: 1px solid red;
 	background-color: #FFF;
 	padding: 4px;
 }
