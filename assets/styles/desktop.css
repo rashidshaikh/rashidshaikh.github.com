@@ -4,6 +4,23 @@ body {
 	margin: 1px;
 }
 
+a{
+	font-weight: normal;
+	font-size: 13px;
+}
+
+a:HOVER{
+	color: red;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-size: 14px;
+}
+
 #mainWrapper { //
 	border: 1px solid #D8D8D8; //
 	border-radius: 10px;

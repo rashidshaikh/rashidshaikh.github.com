@@ -3,6 +3,15 @@ body{
 	font-family: verdana;
 	margin: 0;
 }
+
+a{
+	font-weight: normal;
+}
+
+nav a{
+	font-size: 13px;
+}
+
 #mainWrapper{
 	//border: 1px solid red;
 	background-color: #FFF;
