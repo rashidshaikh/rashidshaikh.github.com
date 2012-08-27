@@ -1,6 +1,7 @@
 body{
 	background-color: #EEE;
-	font-family: verdana
+	font-family: verdana;
+	margin: 0;
 }
 
 #mainWrapper{
