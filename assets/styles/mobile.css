@@ -1,0 +1,13 @@
+body{
+	background-color: #EEE;
+}
+#mainWrapper{
+	border: 1px solid red;
+	background-color: #FFF;
+	padding: 4px;
+}
+
+header{
+	font-size: 25px;
+	border-bottom: 1px solid #EEEEEE;
+}
