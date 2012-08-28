@@ -4,36 +4,73 @@ body {
 	margin: 1px;
 }
 
-a{
+a {
 	font-weight: normal;
 	font-size: 13px;
 }
 
-a:HOVER{
+a:HOVER {
 	color: red;
 }
 
 nav a {
-  text-decoration: none;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	padding: 7px;
+	text-decoration: none;
 }
 
-nav a:hover {
-  font-size: 14px;
+nav {
+	margin-top: 14px;
 }
 
-#mainWrapper { //
+.active {
+	text-decoration: none;
+	color: #000;
+	background-color: #FFF;
+}
+
+nav a:HOVER {
+	text-decoration: underline;
+	color: #000;
+}
+
+#mainWrapper {
 	border: 1px solid #D8D8D8; //
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 	background-color: #FFF;
 	margin: auto;
-	width: 80%;
+	width: 80%; //
 	padding: 15px;
+	margin-bottom: 50px;
 }
 
-header {
+header,#contentWrapper {
+	padding-left: 15px;
+}
+
+header, footer {
+	background-color: #2E9FFF;
+	color: #FFFFFF;
+}
+
+header{
 	font-size: 35px;
 	border-bottom: 1px solid #EEEEEE;
+	font-weight: bold;
+	height: 100px;
+	
+}
+
+footer{
+	height: 30px;
+	font-size: 10px;
+}
+
+footer p{
+	padding-top: 10px;
+	margin-left: 10px;	
 }
 
 #contentWrapper {

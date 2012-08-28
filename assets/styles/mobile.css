@@ -10,8 +10,12 @@ a{
 
 nav a{
 	font-size: 13px;
+	color: #FFF;
 }
 
+nav {
+	margin-top: -13px;
+}
 #mainWrapper{
 	//border: 1px solid red;
 	background-color: #FFF;
@@ -23,6 +27,29 @@ nav a{
 header{
 	font-size: 25px;
 	border-bottom: 1px solid #EEEEEE;
+	padding-left: 10px;
+}
+
+header, footer {
+	background-color: #2E9FFF;
+	color: #FFFFFF;
+}
+
+header{
+	border-bottom: 1px solid #EEEEEE;
+	font-weight: bold;
+	height: 50px;
+	
+}
+
+footer{
+	height: 30px;
+	font-size: 10px;
+}
+
+footer p{
+	padding-top: 10px;
+	margin-left: 10px;	
 }
 
 #contentWrapper{
