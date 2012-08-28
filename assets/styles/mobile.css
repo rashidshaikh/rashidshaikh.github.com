@@ -11,10 +11,11 @@ a{
 nav a{
 	font-size: 13px;
 	color: #FFF;
+	text-decoration: none;
 }
 
 nav {
-	margin-top: -13px;
+	margin-top: -10px;
 }
 #mainWrapper{
 	//border: 1px solid red;
