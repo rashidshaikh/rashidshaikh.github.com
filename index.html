@@ -1,113 +1,23 @@
-<html>
-<head>
-<title>BLOG TITLE</title>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="Equal Experts">
-<meta name="viewport" content="user-scalable=no,width=device-width" />
-<LINK href="assets/styles/desktop.css" media="all and (min-device-width: 600px)" rel="stylesheet" type="text/css">
-<LINK href="assets/styles/mobile.css" media="all and (max-device-width: 600px)" rel="stylesheet" type="text/css">
-</head>
-<body>
-	<div id="mainWrapper">
-		<header>
-			BLOG TITLE
-			<nav>
-				<a href="#" class="active">Home</a> <a href="#">Archive</a>
-			</nav>
-		</header>
-		<div id="contentWrapper">
-			<h3>Latest articles...</h3>
-			<div id="left">
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum doller simit
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit <br> <a href="">Read more...</a>
-					</p>
-				</section>
-
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum doller simit
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit <br> <a href="">Read more...</a>
-					</p>
-				</section>
-
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lordoller simit
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller em ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum doller simit
-						Lorem ipsum doller simit <br> <a href="">Read more...</a>
-					</p>
-				</section>
-
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum dolledoller
-						simit Lorem ipsum doller simit Lorem ipsum doller simit Lorem
-						ipsum doller r simit Lorem ipsum doller simit Lorem ipsum doller
-						simit Lorem ipsum doller simit <br> <a href="">Read
-							more...</a>
-					</p>
-				</section>
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum dolledoller
-						simit Lorem ipsum doller simit Lorem ipsum doller simit Lorem
-						ipsum doller r simit Lorem ipsum doller simit Lorem ipsum doller
-						simit Lorem ipsum doller simit <br> <a href="">Read
-							more...</a>
-					</p>
-				</section>
-				<section class="blogentry">
-					<h5>
-						<a href="#">Lorem Ipsum Doller Simit Lorem Ipsum Doller Simit</a>
-					</h5>
-					<p class="blogdate">31 May 2012</p>
-					<p class="blogsummary">
-						Lorem ipsum doller simit Lorem ipsum doller simit Lorem ipsum
-						doller simit Lorem ipsum doller simit Lorem ipsum dolledoller
-						simit Lorem ipsum doller simit Lorem ipsum doller simit Lorem
-						ipsum doller r simit Lorem ipsum doller simit Lorem ipsum doller
-						simit Lorem ipsum doller simit <br> <a href="">Read
-							more...</a>
-					</p>
-				</section>
-			</div>
-			<div id="right">
-				Categories<br> <br> <br> <br>
-			</div>
-		</div>
-		<footer><p>Designed by - XYZ</p></footer>
+---
+layout: home
+---
+<div id="contentWrapper">
+	<h3>Latest articles...</h3>
+	<div id="left">
+	{% for post in site.posts limit:3 %}
+	<section class="blogentry">
+			<h5>
+				<a href="{{post.url}}">{{post.title}}</a>
+			</h5>
+			<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+			<p class="blogsummary">
+				{{post.summary}}
+				<a href="{{post.url}}">Read more...</a>
+			</p>
+		</section>	
+   {% endfor %}
 	</div>
-</body>
-</html>
+	<div id="right">
+		{% include rightmenu.html %}
+	</div>
+</div>

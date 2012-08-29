@@ -16,7 +16,7 @@ a:HOVER {
 nav a {
 	border-radius: 5px 5px 5px 5px;
 	color: #FFFFFF;
-	padding: 7px;
+	padding: 10px;
 	text-decoration: none;
 }
 
@@ -116,4 +116,12 @@ h5 a {
 #contentWrapper h3 {
 	margin-bottom: -15px;
 	margin-top: 1px;
+}
+
+.archive-list li{
+	list-style: none;
+}
+
+.archive-list li a{
+	font-size: 14px;
 }

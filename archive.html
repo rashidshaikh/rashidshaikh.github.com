@@ -1,0 +1,14 @@
+--- 
+layout: archive 
+---
+<div id="contentWrapper">
+	<h3>Blog archive...</h3>
+	<div id="left">
+		<ul class="archive-list">
+		{% for post in site.posts limit:3 %}
+			<li><span class="blogdate">{{ post.date | date: "%d %B %Y" }}</span> » <a href="{{post.url}}">{{post.title}}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+	<div id="right">{% include rightmenu.html %}</div>
+</div>
