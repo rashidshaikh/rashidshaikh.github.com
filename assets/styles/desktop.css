@@ -125,3 +125,7 @@ h5 a {
 .archive-list li a{
 	font-size: 14px;
 }
+
+#commentBox{
+	padding: 15px;
+}
