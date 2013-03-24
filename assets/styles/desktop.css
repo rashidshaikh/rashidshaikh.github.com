@@ -22,6 +22,8 @@ nav a {
 
 nav {
 	margin-top: 14px;
+	position: absolute;
+    top: 43px;
 }
 
 .active {
@@ -40,8 +42,8 @@ nav a:HOVER {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 	background-color: #FFF;
 	margin: auto;
-	width: 80%; 
-	min-width: 600px;
+	width: 85%; 
+	min-width: 800px;
 	margin-bottom: 50px;
 }
 
@@ -128,4 +130,16 @@ h5 a {
 
 #commentBox{
 	padding: 15px;
+}
+
+#logoText{
+	font-size: 10px;
+    margin-left: 157px;
+    position: absolute;
+    top: 57px;
+}
+
+#logo{
+	display: block;
+	position: relative;
 }
