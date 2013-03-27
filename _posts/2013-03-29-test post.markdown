@@ -1,0 +1,7 @@
+---
+layout: post
+title: test post 
+date: 28 Aug 2012
+summary: summary
+---
+this is test blog post
