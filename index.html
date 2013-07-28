@@ -5,7 +5,8 @@ layout: home
 	<h3>Latest articles...</h3>
 	<div id="left">
 	{% for post in site.posts limit:3 %}
-	<section class="blogentry">
+	{% if post.status == 'up' %}
+		<section class="blogentry">
 			<h5>
 				<a href="{{post.url}}">{{post.title}}</a>
 			</h5>
@@ -15,17 +16,10 @@ layout: home
 				<a href="{{post.url}}">Read more...</a>
 			</p>
 		</section>	
+	{% endif %}
    {% endfor %}
 	</div>
 	<div id="right">
 		{% include rightmenu.html %}
 	</div>
 </div>
-<pre><code>
-class sample{
-	public static void main(String args[]){
-		int a = 10;
-		System.out.println("The value of a = " + a);
-	}
-}
-</code></pre>
