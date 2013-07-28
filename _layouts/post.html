@@ -10,9 +10,9 @@
 				<a href="{{page.url}}">{{page.title}}</a>
 			</h5>
 			<p class="blogdate">{{ page.date | date: "%d %B %Y" }}</p>
-			<p class="blogsummary">
-				{{page.content}}
-			</p>
+
+				{{ content }}
+			
 		</section>
 	{% include disqus.html %}			
 	</div>

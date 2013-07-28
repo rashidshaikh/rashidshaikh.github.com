@@ -115,8 +115,10 @@ footer p{
 	margin-top: -15px;
 }
 
-.blogsummary {
+.blogsummary{
 	border-bottom: 1px solid #EEEEEE;
+}
+.blogsummary, .blogentry p {
 	font-size: 13.5px;
 	margin-top: -10px;
 	padding-bottom: 20px;
