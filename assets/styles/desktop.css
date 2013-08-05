@@ -14,9 +14,9 @@ a:HOVER {
 	color: red;
 }
 
-nav a {
-	//border-radius: 5px 5px 5px 5px;
-	//color: #FFFFFF;
+nav a { //
+	border-radius: 5px 5px 5px 5px; //
+	color: #FFFFFF;
 	padding: 10px;
 	text-decoration: none;
 }
@@ -24,14 +24,14 @@ nav a {
 nav {
 	margin-top: 14px;
 	position: absolute;
-    top: 43px;
+	top: 43px;
 }
 
 .active {
 	text-decoration: underline;
-	font-weight: bold;
-	//color: #000;
-	//background-color: #FFF;
+	font-weight: bold; //
+	color: #000; //
+	background-color: #FFF;
 }
 
 nav a:HOVER {
@@ -39,50 +39,50 @@ nav a:HOVER {
 	color: #000;
 }
 
-.headLineTwo{
+.headLineTwo {
 	font-size: 13px;
 	color: #888888;
 	font-weight: normal;
 }
+
 #mainWrapper {
-	border: 1px solid #D8D8D8; 
+	border: 1px solid #D8D8D8;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 	border-radius: 5px;
 	background-color: #FFF;
 	margin: auto;
-	width: 85%; 
+	width: 85%;
 	min-width: 800px;
 	margin-bottom: 50px;
 }
 
-header,#contentWrapper {
-	//padding-left: 15px;
+header,#contentWrapper { //
+	padding-left: 15px;
 }
 
-header, footer {
-	//background-color: #2E9FFF;
-	//color: #FFFFFF;
+header,footer { //
+	background-color: #2E9FFF; //
+	color: #FFFFFF;
 }
 
-header{
+header {
 	font-size: 35px;
 	border-bottom: 1px solid #EEEEEE;
 	font-weight: bold;
 	height: 100px;
 	margin-left: 15px;
-	
 }
 
-footer{
+footer {
 	height: 30px;
 	font-size: 12px;
 	border-top: 1px solid #EEEEEE;
 	color: #888888;
 }
 
-footer p{
-	//padding-top: 10px;
-	margin-left: 10px;	
+footer p { //
+	padding-top: 10px;
+	margin-left: 10px;
 }
 
 #contentWrapper {
@@ -95,8 +95,8 @@ footer p{
 	width: 74%;
 	margin-left: 15px;
 	margin-top: 10px;
-	float: left;
-	//border-right: 2px solid #EEEEEE;
+	float: left; //
+	border-right: 2px solid #EEEEEE;
 }
 
 #right {
@@ -115,10 +115,11 @@ footer p{
 	margin-top: -15px;
 }
 
-.blogsummary{
+.blogsummary {
 	border-bottom: 1px solid #EEEEEE;
 }
-.blogsummary, .blogentry p {
+
+.blogsummary,.blogentry p {
 	font-size: 13.5px;
 	margin-top: -10px;
 	padding-bottom: 20px;
@@ -136,26 +137,33 @@ h5 a {
 	margin-left: 15px;
 }
 
-.archive-list li{
+.archive-list li {
 	list-style: none;
 }
 
-.archive-list li a{
+.archive-list li a {
 	font-size: 14px;
 }
 
-#commentBox{
+#commentBox {
 	padding: 15px;
 }
 
-#logoText{
+#logoText {
 	font-size: 10px;
-    margin-left: 157px;
-    position: absolute;
-    top: 57px;
+	margin-left: 157px;
+	position: absolute;
+	top: 57px;
 }
 
-#logo{
+#logo {
 	display: block;
 	position: relative;
+}
+
+pre {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	padding: 10px;
+	margin-right: 50px;
 }
