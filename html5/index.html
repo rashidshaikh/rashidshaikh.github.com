@@ -4,22 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title></title>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script type="text/javascript">
-$( document ).ready(function() {
-	$("#user-name").html(localStorage.userName);
-    $("#store-value").click(function(){
-    	var userName = $("#user-input").val();
-    	localStorage.userName = userName;
-    	$("#user-name").html(localStorage.userName);
-    });
-});
-</script>
+<script src="init.js"></script>
+<style>
+#equilizer {
+	border: 1px solid blue;
+	background-color: red;
+	height: 0px;
+	width: 100px;
+}
+</style>
 </head>
 <body>
-	<input type="text" id="user-input" /><button id="store-value">Save in local Storage</button><br/>
-	value stored in locale storage : <span id="user-name"></span><br/>
-	<a href="index.html">Home</a><br/>
-	<a href="page2.html">page 2</a><br/>
-	<a href="page3.html">page 3</a><br/>
+	<div id="equilizer"></div>
 </body>
 </html>
