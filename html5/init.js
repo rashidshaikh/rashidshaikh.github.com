@@ -42,7 +42,8 @@ $(document).ready(function() {
 		var average = getAverageVolume(array);
 		console.log(average);
 		average = average * 5;
-		$("#equilizer").css({"height": average + "px"})
+		$("#equilizer").css({"height": average + "px"});
+        console.log("");
 	}
 
 	function getAverageVolume(array) {
@@ -81,7 +82,7 @@ $(document).ready(function() {
 	function playSound(buffer) {
 		sourceNode.buffer = buffer;
 		sourceNode.noteOn(0);
-	}
+    }
 
 	// log if an error occurs
 	function onError(e) {
