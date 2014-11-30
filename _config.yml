@@ -2,11 +2,9 @@
 title: Rashid Shaikh
 email: contact@rashids.in
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Software Engineer, Agile Practitioner and Technology Enthusiast
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://rashids.in" # the base hostname & protocol for your site
 twitter_username: rashid_shaikh15
 github_username:  rshaikh
 
