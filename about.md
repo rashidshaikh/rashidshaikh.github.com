@@ -3,9 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
+[View Resume](../resume)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Rashid has extensively worked on **J2EE** based enterprise applications, developing server side Java as well as front
+end **JavaScript** code. He brings expertise on MVC frameworks like Spring and NoSQL databases like MongoDB.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+On his projects, he is not only responsible for development, but also takes care of **continuous integration, build and
+deployment.**
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+He is a strong advocate of **Agile** and always implements XP practices **(TDD, BDD, Pairing)** on his projects.
+
+A quintessential geek, Rashid keeps getting his hands dirty with cutting edge technologies like Scala, Groovy, Grails
+etc. in his spare time.
