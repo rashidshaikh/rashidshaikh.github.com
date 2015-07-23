@@ -3,7 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-[Download as PDF](../Resume-Rashid_Shaikh.pdf)
 
 #Summary
 - Over 4 years of experience in developing **J2EE** based enterprise applications, developing server side Java as well as front end JavaScript code.
@@ -31,10 +30,3 @@ permalink: /resume/
 - [O2 Priority Moments Responsive Web](https://priority.o2.co.uk/moments/) *- Sep 2012 - Aug 2013*
 - [O2 Home Broadband Resign]() *- Jul 2012 - Aug 2012*
 - [International Tariffs](http://www.o2.co.uk/international/internationalhub) *- Jun 2012 - Jul 2012*
-
-#Education Details
-- Bachelor of Engineering (B.E.) in Computer from University of Pune with First Class, 2011
-
-#Extra Curricular
-- Winner of the runner up prize at [Equal Experts](http://www.equalexperts.com/), India 24 hours hackathon event.
-- Winner of first prize in intercollege coding competition.
