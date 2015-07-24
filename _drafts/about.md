@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
-[View Resume](../resume)
 
 Rashid has extensively worked on **J2EE** based enterprise applications, developing server side Java as well as front
 end **JavaScript** code. He brings expertise on MVC frameworks like Spring and NoSQL databases like MongoDB.
