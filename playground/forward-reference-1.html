@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forward reference demo</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      var foo = function() {
+        console.log(bar())
+      }
+
+      foo();
+
+      var bar = function() {
+        return "Hey there!";
+      }
+
+
+    </script>
+
+    <ul>
+      <li>
+        JavaScript supports forward references (use things before it's declaration)
+      </li>
+      <li>
+        The only complication is what exactly is a declaration in JavaScript - any statement that doesn't actually get executed when the program runs
+      </li>
+      <li><b>Function Declaration vs. Function Expressions</b></li>
+    </ul>
+    <hr>
+    <pre>
+      var foo = function() {
+        console.log(bar())
+      }
+
+      foo();
+
+      var bar = function() {
+        return "Hey there!";
+      }
+
+    </pre>
+    <hr>
+  </body>
+</html>
